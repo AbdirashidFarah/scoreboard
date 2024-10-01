@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+</style>
+
+                
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <h2 class="score" id="home-score">0</h2> 
+                <div id="home-btn">
+                    <button id="one-btn" onclick="plusOne()">+1</button>
+                    <button id="two-btn" onclick="plusTwo()">+2</button>
+                    <button id="three-btn" onclick="plusThree()">+3</button>
+                </div>
+                </div>
+            <div class="column">
+            <div>
+                <h3 class="text">GUEST</h3>
+                <h2 class="score" id="guest-score-el">0</h2>
+                <div id="guest-btn">
+                    <button id="btn-one" onclick="plusOneGuest()">+1</button>
+                    <button id="btn-two" onclick="plusTwoGuest()">+2</button>
+                    <button id="btn-three" onclick="plusThreeGuest()">+3</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    <div class="container-two">
+        <button class="save-btn" onclick="saveClick()">SAVE</button>
+        <p id="home-count" onclick="homeCount">Home Count : </p>
+        <p id="guest-count" onclick="guestCount">Guest Count : </p>
+    </div>
+    
+        <script src="index.js"></script>
+    </body>
